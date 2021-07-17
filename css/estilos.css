@@ -1,0 +1,105 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               Estilos Filtro                               */
+/* -------------------------------------------------------------------------- */
+
+nav {
+    background:#fff ;
+    
+}
+
+.carousel-items{
+    height: 100px;
+}
+
+.filtro_a {
+color: black;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Materialize                                */
+/* -------------------------------------------------------------------------- */
+
+.carousel {
+    min-height: 590px;
+}
+
+.carousel .carousel-item{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 550px;
+    height: 590px;
+    
+    
+}
+
+
+.carousel .carousel-item  img{
+    width: 35%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item{
+    margin: 0 15px;
+    background: #36221c;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Estilos Imagen                               */
+/* -------------------------------------------------------------------------- */
+
+img{
+    margin: 10px;
+}
+
+@media screen and (max-width: 1000px){
+    .filtro {
+        width: 400px;
+
+    }
+    .carousel {
+    min-height: 390px;
+}
+
+    .carousel .carousel-item{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 300px;
+    height: 200px;
+    
+    
+}
+
+    .carousel .carousel-item  img{
+    width: 40%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.filtro_a{
+    position: relative;
+}
+
+}
